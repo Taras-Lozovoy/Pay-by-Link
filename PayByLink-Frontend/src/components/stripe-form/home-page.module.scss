@@ -1,0 +1,31 @@
+.root {
+  max-width: 500px;
+  margin: 35vh auto;
+  border-radius: 5px;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    background-color: #7795F8;
+
+    .input__text {
+      color: #fff;
+    }
+
+    .pay__button {
+      background-color: #f6a4eb;
+    }
+
+    .button__wrapper {
+      display: flex;
+      flex-direction: row;
+      align-content: flex-start;
+      justify-content: space-between;
+
+      button {
+        margin: 2em auto 1em;
+      }
+    }
+  }
+}

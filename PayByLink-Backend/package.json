@@ -1,0 +1,35 @@
+{
+  "name": "paybylink",
+  "version": "1.0.0",
+  "description": "Pay by link backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clubspeed/PayByLink-Backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clubspeed/PayByLink-Backend/issues"
+  },
+  "homepage": "https://github.com/clubspeed/PayByLink-Backend#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-redis": "^5.2.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "redis": "^3.1.2",
+    "stripe": "^8.148.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

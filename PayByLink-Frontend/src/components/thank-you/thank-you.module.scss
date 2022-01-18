@@ -1,0 +1,17 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #7795F8;
+  height: 100vh;
+  text-align: center;
+
+  .pay__button {
+    background-color: #f6a4eb;
+  }
+
+  .title {
+    color: #ffffff;
+  }
+}
+
